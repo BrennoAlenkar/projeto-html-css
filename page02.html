@@ -6,6 +6,39 @@
     <title>Sobre Mim</title>
 </head>
 <body>
-    <h1>Sobre Mim</h1>
+    <header>
+        <h1>Titulo principal da pagina</h1>
+        <p>Site desenvolvido com html puro!</p>
+        <hr>
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="#">Pagina secundaria</a>
+            <a href="#">Vendas</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Cadrasto Usuario</h2>
+            <fieldset>
+                <legend>Login</legend>
+            <form action="">
+                <label for="nome-usuario">Nome:</label>
+                <input placeholder="Digite seu nome" type="text" id="nome-usuario" required>
+                <br><br>
+                <label for="email-usuario">E-mail:</label>
+                <input placeholder="Digite seu e-mail" type="email" name="" id="email-usuario" required>
+                <br><br>
+                <label for="senha-usuario">Senha:</label>
+                <input placeholder="Digite sua senha" type="password" name="senha" id="senha-usuario" required>
+                <br><br>
+                <input type="checkbox" name="validacao" id="check" required>
+                <label for="check">Aceita o termos?</label>
+                <br> <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </fieldset>
+        </section>
+    </main>
 </body>
 </html>
